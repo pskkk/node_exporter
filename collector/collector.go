@@ -45,7 +45,7 @@ var (
 )
 
 const (
-	defaultEnabled  = true
+	defaultEnabled  = false // 为关闭所有默认开启的Metrics 这里改为 false ,原值为 true
 	defaultDisabled = false
 )
 
